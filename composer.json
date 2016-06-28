@@ -1,0 +1,24 @@
+{
+    "name": "mmxca/websocket-client-plugin",
+    "description": "WebsocketClientPlugin plugin for CakePHP3",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0",
+        "textalk/websocket": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebSocketClientPlugin\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WebSocketClientPlugin\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
