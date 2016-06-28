@@ -4,6 +4,13 @@ namespace WebSocketClientPlugin\Controller\Component;
 use WebSocket\ConnectionException;
 use Cake\Log\Log;
 
+/** 
+ * WebsocketClient is a class extending the websocket class that was developed 
+ * by Textalk as copyrighted below.
+ * 
+ * Original class can be found here: 
+ * @website https://github.com/Textalk/websocket-php
+ */
 class WebsocketClient extends \WebSocket\Client {
 
     /**

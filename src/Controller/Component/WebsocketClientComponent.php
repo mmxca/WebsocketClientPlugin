@@ -9,11 +9,11 @@ use WebSocketClientPlugin\Controller\Component\Exceptions\ChainReadException;
 use WebSocket\ConnectionException;
 
 /** 
- * BitmessageComponent is a class adapting the PhpBitmessage class that was developed 
- * by Convertor as copyrighted below.
+ * WebsocketClientComponent is a class adapting the websocket class that was developed 
+ * by Textalk as copyrighted below.
  * 
  * Original class can be found here: 
- * @website http://conver.github.io/class.bitmessage.php/
+ * @website https://github.com/Textalk/websocket-php
  */
 class WebsocketClientComponent extends Component {
 
