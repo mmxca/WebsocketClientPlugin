@@ -12,12 +12,12 @@
     },
     "autoload": {
         "psr-4": {
-            "WebSocketClientPlugin\\": "src"
+            "WebsocketClientPlugin\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WebSocketClientPlugin\\Test\\": "tests",
+            "WebsocketClientPlugin\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
